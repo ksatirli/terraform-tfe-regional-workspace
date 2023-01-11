@@ -12,7 +12,7 @@ module "regional_workspaces" {
     "region-3",
   ])
 
-  source = "./modules/terraform-tfe-regional-workspace"
+  source = "../.."
 
   region = {
     category   = "env"
