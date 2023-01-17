@@ -12,5 +12,8 @@ This is a _basic_ example of the `terraform-tfe-regional-workspace` module.
 
 ### Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| tfe_project | Exported Attributes for `tfe_project`. |
+| tfe_workspaces | Exported Attributes for `module.regional_workspaces.tfe_workspace`. |
 <!-- END_TF_DOCS -->
