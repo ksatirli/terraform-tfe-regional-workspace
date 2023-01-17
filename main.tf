@@ -4,7 +4,7 @@
 resource "tfe_workspace" "main" {
   name                          = "regional-${var.region.prefix}-${var.region.identifier}"
   organization                  = var.tfe_organization
-  description                   = "Regional Workspace for Provider `${var.region.prefix} in Region `${var.region.identifier}`."
+  description                   = "Regional Workspace for Provider `${var.region.prefix}` in Region `${var.region.identifier}`."
   assessments_enabled           = var.assessments_enabled
   allow_destroy_plan            = var.allow_destroy_plan
   auto_apply                    = var.auto_apply
