@@ -8,7 +8,7 @@ This is a _basic_ example of the `terraform-tfe-regional-workspace` module.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | tfe_oauth_client_id | VCS Provider oAuth Client Identifier. | `string` | n/a | yes |
-| tfe_organization | Name of Terraform Cloud Organization. | `string` | `"a-demo-organization"` | no |
+| tfe_organization | Name of Terraform Cloud Organization. | `string` | n/a | yes |
 
 ### Outputs
 
