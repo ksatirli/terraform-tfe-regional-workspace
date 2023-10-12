@@ -36,3 +36,13 @@ resource "tfe_variable" "region" {
   sensitive    = false
   workspace_id = tfe_workspace.main.id
 }
+
+# see https://registry.terraform.io/providers/hashicorp/tfe/latest/docs/resources/variable
+resource "tfe_variable" "workspace" {
+  key          = "tfe_workspace"
+  value        = tfe_workspace.main.name
+  category     = "terraform"
+  description  = "String of Name for this Workspace."
+  sensitive    = false
+  workspace_id = tfe_workspace.main.id
+}

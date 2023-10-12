@@ -81,7 +81,8 @@ module "regional_workspaces" {
 
 | Name | Description |
 |------|-------------|
-| tfe_variable | Exported Attributes for `tfe_variable`. |
+| tfe_variable_region | Exported Attributes for `tfe_variable.region`. |
+| tfe_variable_workspace | Exported Attributes for `tfe_variable.workspace`. |
 | tfe_workspace | Exported Attributes for `tfe_workspace`. |
 <!-- END_TF_DOCS -->
 
